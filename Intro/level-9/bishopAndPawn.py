@@ -13,5 +13,6 @@ def solution(bishop, pawn):
             nr, nc = nr + d[0], nc + d[1]
     return False
 
+
 assert solution("a1", "c3") == True
 assert solution("h1", "h3") == False
